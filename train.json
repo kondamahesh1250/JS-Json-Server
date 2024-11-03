@@ -1,0 +1,166 @@
+{
+    "searchstation": [
+        {
+            "code": "HYD",
+            "stationname": "Hyderabad",
+            "statename": "Telangana"
+        },
+        {
+            "code": "KMR",
+            "stationname": "Kamareddy",
+            "statename": "Telangana"
+        },
+        {
+            "code": "NZB",
+            "stationname": "Nizamabad",
+            "statename": "Telangana"
+        },
+        {
+            "code": "MMD",
+            "stationname": "Manmad Junction",
+            "statename": "Maharashtra"
+        },
+        {
+            "code": "MMI",
+            "stationname": "Mumbai",
+            "statename": "Maharashtra"
+        }
+    ],
+    "searchtrain": [
+        {
+            "code": "12720",
+            "name": "HYB JP SF EXPRESS",
+            "type": "Rajdhani Express",
+            "arrival": "5:45 AM",
+            "depature": "7:25 PM"
+        },
+        {
+            "code": "17058",
+            "name": "DEVAGIRI EXPRESS",
+            "type": "Shatabdi Express",
+            "arrival": "5:45 PM",
+            "depature": "7:40 AM"
+        },
+        {
+            "code": "17406",
+            "name": "KRISHNA EXPRESS",
+            "type": "Gatimaan Express",
+            "arrival": "6:35 AM",
+            "depature": "5:25 PM"
+        },
+        {
+            "code": "12696",
+            "name": "MGR CHENNAI CENTRAL EXPRESS",
+            "type": "Duronto Express",
+            "arrival": "8:45 AM",
+            "depature": "9:25 PM"
+        },
+        {
+            "code": "19301",
+            "name": "YESVANTPUR WEEKLY EXPRESS",
+            "type": "Tejas Express",
+            "arrival": "8:50 PM",
+            "depature": "5:50 AM"
+        },
+        {
+            "code": "16734",
+            "name": "OKHA RMM EXPRESS",
+            "type": "Maharaja Express",
+            "arrival": "9:45 PM",
+            "depature": "7:15 AM"
+        }
+    ],
+    "trainsbetweenstation": {
+        "stations": [
+            {
+                "loc": "HYD"
+            },
+            {
+                "loc": "JAIPUR"
+            },
+            {
+                "loc": "SECUNDERABAD"
+            },
+            {
+                "loc": "MUMBAI CENTRAL"
+            },
+            {
+                "loc": "CHENNAI CENTRAL"
+            }
+        ],
+        "trains": [
+            {
+                "code": "12720",
+                "fromStation": "HYD",
+                "toStation": "JAIPUR",
+                "name": "HYB JP SF EXPRESS",
+                "schedule": "10:00 AM - 06:00 PM"
+            },
+            {
+                "code": "17058",
+                "fromStation": "SECUNDERABAD",
+                "toStation": "MUMBAI CENTRAL",
+                "name": "DEVAGIRI EXPRESS",
+                "schedule": "10:00 AM - 06:00 PM"
+            },
+            {
+                "code": "17406",
+                "fromStation": "ADILABAD",
+                "toStation": "TIRUPATI",
+                "name": "KRISHNA EXPRESS",
+                "schedule": "10:00 AM - 06:00 PM"
+            },
+            {
+                "code": "12696",
+                "fromStation": "THIRUVANANTHAPURAM",
+                "toStation": "CHENNAI CENTRAL",
+                "name": "MGR CHENNAI CENTRAL EXPRESS",
+                "schedule": "10:00 AM - 06:00 PM"
+            },
+            {
+                "code": "19301",
+                "fromStation": "KANNUR",
+                "toStation": "YESVANTPUR",
+                "name": "YESVANTPUR WEEKLY EXPRESS",
+                "schedule": "10:00 AM - 06:00 PM"
+            }
+        ]
+    },
+    "trainschedule": [
+        {
+            "name": "HYB JP SF EXPRESS",
+            "stationname": "HYDERABAD",
+            "stops":"HYD-KMR-MUKHED-BHOPAL-UJJAIN-BIJAINAGAR-KISHANGARH-JAIPUR",
+            "arrival": "6:15 PM",
+            "depature": "7:30 AM"
+        },
+        {
+            "name": "DEVAGIRI EXPRESS",
+            "stationname": "SECUNDERABAD",
+            "stops": "SECUNDERABAD-BOLARUM-NZB-UMRI-NANDED-PURNA-MANMAD-DADAR-MUMBAI",
+            "arrival": "7:15 PM",
+            "depature": "6:30 AM"
+        },
+        {
+            "name": "KRISHNA EXPRESS",
+            "stationname": "KACHEGUDA",
+            "stops": "ADILABAD-BHOKAR-DHARMABAD-BASAR-BHONGIR-ALER-ONGOLE-TIRUPATI",
+            "arrival": "8:30 AM",
+            "depature": "11:15 PM"
+        },
+        {
+            "name": "MGR CHENNAI CENTRAL EXPRESS",
+            "stationname": "CHENNAI",
+            "stops": "THIRUVANANTHAPURAM-KOTTAYAM-TIRUPPUR-VANIYAMBADI-CHENNAI CENTRAL",
+            "arrival": "5:45 AM",
+            "depature": "5:50 AM"
+        },
+        {
+            "name": "YESVANTPUR WEEKLY EXPRESS",
+            "stationname": "BANGALORE",
+            "stops": "KANNUR-TIRUR-PALAKKAD-SALEM-DHARMAPURI-HOSUR-BANASWADI-YESVANTAPUR",
+            "arrival": "9:45 PM",
+            "depature": "11:20 PM"
+        }
+    ]
+}
